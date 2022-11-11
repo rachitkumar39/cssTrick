@@ -1,0 +1,21 @@
+*{
+    background-color:black;
+}
+.div{
+    border:5px solid white;
+    width:150px;
+    height:150px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    animation-name:example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    0% {border-radius:0px;}
+    50%{border-radius: 50%;}
+    100%{border-radius: 0px;}
+
+}

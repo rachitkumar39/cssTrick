@@ -1,0 +1,30 @@
+.text1{
+    color:red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    width:250px;
+    border: 2px solid;
+}
+.text{
+    animation-name:one;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes one {
+    0% {margin-left:0px;transform: rotateX(180deg);}
+    50% {margin-left:81%;transform: rotateX(360deg);transform: rotateY(360deg);}
+    100% {margin-left:0px;}
+}
+@keyframes example {
+0%{color:black;}
+40% {color:green;}
+80% {color:yellow;}    
+}
+body{
+    text-align: center;
+    align-items: center;
+    width:auto;
+    height:500px;
+    display:flex;
+}
